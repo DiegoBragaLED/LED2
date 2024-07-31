@@ -9,6 +9,14 @@
 </head>
 <body>
     <div id="cont_6af86640feb89a638ef9886852f41a51"><script type="text/javascript" async src="https://www.tempo.com/wid_loader/6af86640feb89a638ef9886852f41a51"></script></div>
+/* Estilo para datas no formato ISO 8601 */
+time[datetime^="20"] {
+  font-weight: bold;
+}
 
+/* Estilo para datas no formato DD/MM/AAAA */
+time[datetime$="/2022"] {
+  color: red;
+}
 </body>
 </html>
