@@ -4,6 +4,11 @@ body{
     display: flex;
     justify-content: left;
 }
+.rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 .left{
     text-align: left;
 }
